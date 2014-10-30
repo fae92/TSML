@@ -2,8 +2,8 @@ from lexer_parser import parser
 
 __author__ = 'tianqilei'
 #print(data)
-blockTreeList=parser.blockTree_list
-classTreeList=parser.classTree_list
+blockTreeList = parser.blockTree_list
+classTreeList = parser.classTree_list
 
 def minus(list1, list2):
     return list (set(list1)-set(list2))
